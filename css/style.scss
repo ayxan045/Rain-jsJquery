@@ -1,0 +1,16 @@
+.snowflake{
+    position: absolute;
+    animation: snowflakeAni 1.9s infinite;
+
+    img{
+        width: 40px;
+    }
+}
+@keyframes snowflakeAni{
+    from{
+        top: 0;
+    }
+    to{
+        top: 94%;
+    }
+}

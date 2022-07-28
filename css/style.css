@@ -1,0 +1,28 @@
+.snowflake {
+  position: absolute;
+  -webkit-animation: snowflakeAni 1.9s infinite;
+          animation: snowflakeAni 1.9s infinite;
+}
+
+.snowflake img {
+  width: 40px;
+}
+
+@-webkit-keyframes snowflakeAni {
+  from {
+    top: 0;
+  }
+  to {
+    top: 94%;
+  }
+}
+
+@keyframes snowflakeAni {
+  from {
+    top: 0;
+  }
+  to {
+    top: 94%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
